@@ -18,12 +18,14 @@ echo "Enter the first number"
 read var1
 echo "Enter the second number"
 read var2
-if [$var1==$var2]
+if [ "$var1" -eq "$var2" ] ;
 then
 echo "The first number is equals to the second number"
-elif [$var1>$var2]
+elif [ "$var1" -gt "$var2" ] ;
 then
 echo "The first number is greater than the second number"
 else
 echo "The first number is smaller than the second number"
 fi
+
+
