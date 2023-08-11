@@ -62,8 +62,8 @@ tar -cvf $target/$filename.tar.gz $source
 
 echo “backup completed”
 ```
-```bash
 Run a cron job:
+```bash
 crontab -e
 
 * * * * * /bin/bash /home/test/test
