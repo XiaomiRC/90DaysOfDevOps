@@ -15,7 +15,8 @@ As a task, change the user permissions of the file and note the changes after ls
 2. Write an article about File Permissions based on your understanding from the notes.
 
 3. Read about ACL and try out the commands getfacl and setfacl
-   **Solution**
+   **My Solution**
+   ```bash
   321  mkdir ACL
   322  cd ACL
   323  nano TEST
@@ -44,3 +45,4 @@ As a task, change the user permissions of the file and note the changes after ls
   346  setfacl -x u:sam TEST
   347  setfacl -k TEST
   348  setfacl -m u:sam:rw TES
+  ```
